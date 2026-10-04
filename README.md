@@ -77,3 +77,7 @@ La forma más sencilla de desplegar esta aplicación es utilizando [Vercel](http
 - [x] Enrutamiento cliente-servidor (Next.js).
 - [x] Diseño Responsive.
 - [x] Loading states y manejo de errores.
+## 📊 Reporte de Cobertura
+- **Comando de ejecución:** `pnpm test:coverage` (ejecuta internamente `vitest run --coverage`).
+- **Formato:** HTML interactivo generado en la carpeta `/coverage/`.
+- **Métricas:** Supera el 80% requerido en Statements, Branches, Functions y Lines.
